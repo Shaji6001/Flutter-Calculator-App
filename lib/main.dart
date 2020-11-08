@@ -50,7 +50,7 @@ class Calculator extends StatelessWidget {
             RaisedButton(onPressed: (){
               int getval1=int.parse(getVal1.text);
               int getval2=int.parse(getVal2.text);
-              int result=getval1*.5getval2;
+              double  result=getval1/getval2;
               print(result);
 
             },child: Text("DIVISION"),color: Colors.purple,)
